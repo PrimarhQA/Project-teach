@@ -10,7 +10,7 @@ test('test', async ({ page }) => {
     await expect(page.locator('[data-test="welcome-text"]')).toBeVisible();
     await expect(page.locator('[data-test="welcome-text"]')).toContainText('Welcome to SimpleOne!');
     await page.locator('[data-test="sidebar-menu-icon"]').getByRole('img').click();
-    await page.getByRole('link', { name: 'Контрагент' }).click();
+    await page.click('xpath=//a[text()="Counterparts"]');
     await expect(page.locator('[data-test="heading-title"]')).toBeVisible();
     await expect(page.locator('[data-test="heading-title"]')).toContainText('Counterparts');
 });
