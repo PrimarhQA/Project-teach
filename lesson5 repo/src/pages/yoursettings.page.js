@@ -2,7 +2,7 @@
     constructor(page) {
         this.page = page;
         this.profileButton = page.locator('li>div[class="nav-link dropdown-toggle cursor-pointer"]');
-        this.settingsButton = page.getByRole('link', { name: ' Settings' });
+        this.settingsButton = page.getByRole('link', { name: 'Settings' });
         this.upDateUrl = page.getByRole('textbox', { name: 'URL of profile picture' });
         this.upDateUserName = page.getByRole('textbox', { name: 'Your Name' });
         this.upDateAboutYou = page.getByRole('textbox', { name: 'Short bio about you' });

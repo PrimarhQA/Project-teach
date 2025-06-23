@@ -8,7 +8,7 @@
         this.paginationButton = page.getByRole('button', { name: 'Page 2' });
         this.lastpainationButton = page.getByRole('button', { name: 'Previous page' });
         this.profileButton = page.locator('li>div[class="nav-link dropdown-toggle cursor-pointer"]');
-        this.logoutButton = page.getByRole('link', { name: ' Logout' });
+        this.logoutButton = page.getByRole('link', { name: 'Logout' });
         this.newArticleButton = page.getByRole('button', { name: 'New Article' });
     }
 

@@ -17,5 +17,5 @@ test('Выход из учетной записи юзера', async ({ page }) 
     await expect(app.yourFeed.profileNameField).toContainText(randomUser.username);
 
     await app.navigation.clickLogoutButton();
-    await expect(page.getByRole('link', { name: ' Login' })).toBeVisible();
+    await expect(page.getByRole('link', { name: 'Login' })).toBeVisible();
 })
