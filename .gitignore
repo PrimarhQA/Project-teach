@@ -6,3 +6,9 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+lesson5 repo/tests/.vs
+lesson5 repo/package.json
+lesson5 repo/package-lock.json
+lesson5 repo/playwright.config.js
+.vs
+lesson5 repo/tests/Lessons
